@@ -12,7 +12,10 @@ endif()
 project ("Raytrace")
 
 # Add source to this project's executable.
-add_executable (Raytrace "Raytrace.cc" "Raytrace.h" "include/vec3.h" "include/color.h")
+add_executable (Raytrace "Raytrace.cc" "Raytrace.h" "include/vec3.h" "include/color.h" "include/ray.h")
+
+
+target_include_directories(Raytrace PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Raytrace PROPERTY CXX_STANDARD 20)

@@ -1,0 +1,3 @@
+D:/Coding/Raytracing/Raytrace/build/CMakeFiles/Raytrace.dir
+D:/Coding/Raytracing/Raytrace/build/CMakeFiles/ALL_BUILD.dir
+D:/Coding/Raytracing/Raytrace/build/CMakeFiles/ZERO_CHECK.dir

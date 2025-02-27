@@ -51,6 +51,7 @@ build cmake_object_order_depends_target_Raytrace: phony || .
 
 build CMakeFiles\Raytrace.dir\Raytrace.cc.obj: CXX_COMPILER__Raytrace_unscanned_Debug D$:\Coding\Raytracing\Raytrace\Raytrace.cc || cmake_object_order_depends_target_Raytrace
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  INCLUDES = -ID:\Coding\Raytracing\Raytrace\include
   OBJECT_DIR = CMakeFiles\Raytrace.dir
   OBJECT_FILE_DIR = CMakeFiles\Raytrace.dir
   TARGET_COMPILE_PDB = CMakeFiles\Raytrace.dir\
