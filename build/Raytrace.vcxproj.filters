@@ -15,6 +15,9 @@
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\color.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Coding\Raytracing\Raytrace\CMakeLists.txt" />
