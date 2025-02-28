@@ -13,13 +13,11 @@ color ray_color(const ray& r, const hittable& world) {
 	if (world.hit(r, 0, infinity, rec)) {
 		return 0.5 * (rec.normal + color(1, 1, 1));
 	}
+
 	vec3 unit_direction = unit_vector(r.direction());
-	auto a = 0.5 * (unit_direction.y() + 1);
-	return (1 - a) * color(1.0, 1.0, 1.0) + a * color(0.5, 0.7, 1.0);
-
+	auto a = 0.5 * (unit_direction.y() + 1.0);
+	return (1.0 - a) * color(1.0, 1.0, 1.0) + a * color(0.5, 0.7, 1.0);
 }
-
-using namespace std;
 
 int main()
 {
@@ -32,7 +30,7 @@ int main()
 
 	//World
 	hittable_list world;
-	world.add(make_shared<sphere>(point3(0, 0, 3), 0.5));
+	world.add(make_shared<sphere>(point3(0, 0, -1), 0.5));
 	world.add(make_shared<sphere>(point3(0, -100.5, -1), 100));
 
 	//focal length
@@ -59,7 +57,7 @@ int main()
 	std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
 
 	for (int j = 0; j < image_height; j++) {
-		std::clog << "r\Scanlines remaining: " << (image_height - j) << ' ' << std::flush;
+		/*std::clog << "r\Scanlines remaining: " << (image_height - j) << ' ' << std::flush;*/
 		for (int i = 0; i < image_width; i++) {
 			auto pixel_center = pixel_00 + (i * pixel_delta_u) + (j * pixel_delta_v);
 			auto ray_direction = pixel_center - camera_center;
