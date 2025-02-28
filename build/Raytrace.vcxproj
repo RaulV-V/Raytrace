@@ -337,6 +337,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\vec3.h" />
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\color.h" />
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\ray.h" />
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\hittable.h" />
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\sphere.h" />
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\hittable_list.h" />
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\rtweekend.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

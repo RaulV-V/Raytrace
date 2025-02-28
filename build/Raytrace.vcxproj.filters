@@ -18,6 +18,18 @@
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\ray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\hittable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\hittable_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\rtweekend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Coding\Raytracing\Raytrace\CMakeLists.txt" />
