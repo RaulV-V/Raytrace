@@ -30,6 +30,12 @@
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\rtweekend.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\interval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Coding\Raytracing\Raytrace\CMakeLists.txt" />
