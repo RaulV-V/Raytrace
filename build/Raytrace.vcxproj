@@ -343,6 +343,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\rtweekend.h" />
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\interval.h" />
     <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\camera.h" />
+    <ClInclude Include="D:\Coding\Raytracing\Raytrace\include\material.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
